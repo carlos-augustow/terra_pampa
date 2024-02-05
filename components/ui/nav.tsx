@@ -14,9 +14,9 @@ const Nav = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex w-[100vw] h-[5rem] bg-white justify-between">
-      <div className="w-[20%] flex itwm">
-        <Image src="/logo.svg" alt="Logo" width={100} height={100} className="ml-[2rem]" />
+    <nav className="flex w-[100vw] h-[6rem] bg-white justify-between">
+      <div className="w-[20%] flex my-[1rem]">
+        <Image src="/logo.png" alt="Logo" width={130} height={100} className="ml-[2rem]" />
       </div>
       <div className="text-black mx-auto flex justify-between w-[20rem] items-center">
         {tiposMenu.menuNav.map((item) => (
