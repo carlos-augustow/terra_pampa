@@ -6,13 +6,15 @@ import CarouselComponent from "@/components/ui/carousel";
 import Beneficios from "@/components/beneficos";
 import Mosaico from "@/components/mosaico";
 import Produtos from "@/components/produtos";
+import Div_Video from "@/components/div_video";
 
 export default function Home() {
   return (
     <>
       <Nav />
       <main className="flex flex-col items-center justify-center">
-        <CarouselComponent />
+        {/* <CarouselComponent / */}
+        <Div_Video />
         <Beneficios />
         <Mosaico />
         <Produtos />
