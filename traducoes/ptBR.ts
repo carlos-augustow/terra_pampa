@@ -6,6 +6,13 @@ export const ptBR: Linguagem = {
     Produtos: "Produtos",
     Home: "Home",
   },
+
+  faixaVouncherDesconto: {
+    ganhe: "Ganhe 20% off",
+    resto: "em sua primeira compra",
+    copiar: "Copiar",
+  },
+
   beneficios: {
     fidelidade: {
       titulo: "Programa de Fidelidade",

@@ -16,33 +16,19 @@ export const retornaProdutos = (): produtos => {
         nome: "Produto 1",
         precoAntigo: 100,
         precoAtual: 80,
-        imagem: "/imgs/produto/produto1.avif",
+        imagem: "/imgs/produto/p1.png",
       },
       {
         nome: "Produto 2",
         precoAntigo: 200,
         precoAtual: 180,
-        imagem: "/imgs/produto/produto1.avif",
+        imagem: "/imgs/produto/p2.png",
       },
       {
         nome: "Produto 3",
         precoAntigo: 300,
         precoAtual: 280,
-        imagem: "/imgs/produto/produto1.avif",
-      },
-
-      {
-        nome: "Produto 4",
-        precoAntigo: 400,
-        precoAtual: 380,
-        imagem: "/imgs/produto/produto1.avif",
-      },
-
-      {
-        nome: "Produto 5",
-        precoAntigo: 500,
-        precoAtual: 480,
-        imagem: "/imgs/produto/produto1.avif",
+        imagem: "/imgs/produto/p3.png",
       },
     ],
   };

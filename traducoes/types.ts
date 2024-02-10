@@ -4,6 +4,13 @@ export interface Linguagem {
     Produtos: string;
     Home: string;
   };
+
+  faixaVouncherDesconto: {
+    ganhe: string;
+    resto: string;
+    copiar: string;
+  };
+
   beneficios: {
     fidelidade: {
       titulo: string;
