@@ -6,6 +6,12 @@ export const es: Linguagem = {
     Produtos: "Productos",
     Home: "Home",
   },
+
+  faixaVouncherDesconto: {
+    ganhe: "Gana un 20% off",
+    resto: "en tu primera compra",
+    copiar: "Copiar",
+  },
   beneficios: {
     fidelidade: {
       titulo: "Programa de Fidelidad",
