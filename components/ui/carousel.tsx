@@ -9,15 +9,12 @@ const arrayVideos = [{ img: "/carroussel/video/video.mp4" }, { img: "/carroussel
 const CarouselComponent = () => {
   return (
     // carroussel colocando um tempo de tres segundos para mudar de imagem
-    <Carousel autoPlay interval={5000} infiniteLoop showThumbs={false}>
-      <Image src={"/carroussel/imgs/img.jpeg"} alt="img" width={1920} height={1080}></Image>
-      <Image src={"/carroussel/imgs/img1.jpeg"} alt="img" width={1920} height={1080}></Image>
-      <video autoPlay loop muted className="w-full">
-        <source src={"/carroussel/video/video.mp4"} type="video/mp4" />
-      </video>
+    <Carousel autoPlay interval={5000} infiniteLoop className="h-[1080px]">
       <video autoPlay loop muted className="w-full">
         <source src={"/carroussel/video/video1.mp4"} type="video/mp4" />
       </video>
+      <Image src={"/carroussel/imgs/img.jpeg"} alt="img" width={1920} height={1080}></Image>
+      <Image src={"/carroussel/imgs/img1.jpeg"} alt="img" width={1920} height={1080}></Image>
     </Carousel>
   );
 };

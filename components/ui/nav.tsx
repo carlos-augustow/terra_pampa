@@ -16,7 +16,7 @@ const Nav = () => {
   const pathname = usePathname();
 
   return (
-    <>
+    <div className="absolute top-0">
       <aside className="text-white bg-black p-1">
         <p className="text-center text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
       </aside>
@@ -26,7 +26,7 @@ const Nav = () => {
         </div>
         <div className="text-black mx-auto flex justify-between w-[25rem] items-center">
           {tiposMenu.menuNav.map((item) => (
-            <Link href={item.link} key={item.titulo} className={`hover:text-[#bb29bb] ${pathname === item.link ? " text-[#bb29bb] " : ""}`}>
+            <Link href={item.link} key={item.titulo} className={`hover:text-[#bb29bb] uppercase ${pathname === item.link ? " text-[#bb29bb] " : ""}`}>
               {item.titulo}
             </Link>
           ))}
@@ -42,7 +42,7 @@ const Nav = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 
