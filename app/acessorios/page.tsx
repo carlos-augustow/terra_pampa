@@ -5,11 +5,11 @@ import Div_Video from "@/components/div_video";
 
 export default function AcessoriosPage() {
   return (
-    <>
+    <div className="relative">
       <Nav />
-      <div className="mt-4">
+      <div className="mt-[7.75rem]">
         <Div_Video />
       </div>
-    </>
+    </div>
   );
 }

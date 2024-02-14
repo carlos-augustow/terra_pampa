@@ -16,7 +16,7 @@ const Nav = () => {
   const pathname = usePathname();
 
   return (
-    <div className="absolute top-0">
+    <div className="fixed top-0 z-10">
       <aside className="text-white bg-black p-1">
         <p className="text-center text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
       </aside>

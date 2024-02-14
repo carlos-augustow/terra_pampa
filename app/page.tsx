@@ -10,15 +10,15 @@ import Div_Video from "@/components/div_video";
 
 export default function Home() {
   return (
-    <>
+    <div className="relative">
       <Nav />
-      <main className="flex flex-col items-center justify-center">
+      <main className="flex flex-col items-center justify-center mt-[7.75rem]">
         <CarouselComponent />
         {/* <Div_Video /> */}
         <Beneficios />
         <Mosaico />
         <Produtos exibeTitulo={true} />
       </main>
-    </>
+    </div>
   );
 }
