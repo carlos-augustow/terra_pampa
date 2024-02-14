@@ -1,11 +1,16 @@
 import { retornaProdutos } from "@/store/produtos";
 import Image from "next/image";
-const Produtos = () => {
+
+interface Produto {
+  exibeTitulo: boolean;
+}
+
+const Produtos = (props: Produto) => {
   const produtos = retornaProdutos().produtos;
 
   return (
     <section className="mt-4 w-[62.5%] flex justify-center flex-col">
-      <h2>Produtos em destaque</h2>
+      {props.exibeTitulo && <h2>Produtos em destaque</h2>}
       <div className="flex gap-10 flex-row py-4 text-black self-center bg-white">
         {produtos.map((produto) => (
           <div className="flex flex-col justify-center gap-4" key={produto.nome}>

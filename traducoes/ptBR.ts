@@ -5,6 +5,7 @@ export const ptBR: Linguagem = {
     quemSomos: "Quem somos",
     Produtos: "Produtos",
     Home: "Home",
+    Acessorios: "Acessórios",
   },
 
   faixaVouncherDesconto: {

@@ -26,7 +26,7 @@ export const retornaTiposMenu = (linguagem: Linguagem): TiposMenu => {
       },
       {
         icone: "",
-        link: "/quem-somos",
+        link: "/quem_somos",
         exibir: true,
         titulo: linguagem.header.quemSomos,
         mensagem: null,
@@ -36,6 +36,13 @@ export const retornaTiposMenu = (linguagem: Linguagem): TiposMenu => {
         link: "/produtos",
         exibir: true,
         titulo: linguagem.header.Produtos,
+        mensagem: null,
+      },
+      {
+        icone: "",
+        link: "/acessorios",
+        exibir: true,
+        titulo: linguagem.header.Acessorios,
         mensagem: null,
       },
     ],

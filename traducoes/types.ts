@@ -3,6 +3,7 @@ export interface Linguagem {
     quemSomos: string;
     Produtos: string;
     Home: string;
+    Acessorios: string;
   };
 
   faixaVouncherDesconto: {

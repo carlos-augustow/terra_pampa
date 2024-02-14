@@ -5,6 +5,7 @@ export const es: Linguagem = {
     quemSomos: "Quienes somos",
     Produtos: "Productos",
     Home: "Home",
+    Acessorios: "Accesorios",
   },
 
   faixaVouncherDesconto: {

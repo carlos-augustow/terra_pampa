@@ -13,11 +13,11 @@ export default function Home() {
     <>
       <Nav />
       <main className="flex flex-col items-center justify-center">
-        {/* <CarouselComponent / */}
-        <Div_Video />
+        <CarouselComponent />
+        {/* <Div_Video /> */}
         <Beneficios />
         <Mosaico />
-        <Produtos />
+        <Produtos exibeTitulo={true} />
       </main>
     </>
   );
