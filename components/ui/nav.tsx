@@ -21,7 +21,7 @@ const Nav = () => {
         <p className="text-center text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
       </aside>
       <nav className="flex w-[100vw] h-[6rem] bg-white justify-between font-semibold">
-        <div className="w-[20%] flex my-[1rem]">
+        <div className="w-[30%] w-xl-[20%] flex my-[1rem]">
           <Image src="/logo.png" alt="Logo" width={130} height={100} className="ml-[2rem]" />
         </div>
         <div className="text-black mx-auto flex justify-between w-[25rem] items-center">
@@ -31,10 +31,10 @@ const Nav = () => {
             </Link>
           ))}
         </div>
-        <div className="w-[20%] flex items-center justify-center">
+        <div className="w-[30%] w-xl-[20%] flex items-center justify-center">
           <div className="flex h-10">
             <input type="text" className="p-2 border-solid border border-b-black outline-none" />
-            <div className="flex gap-2 ml-2">
+            <div className="flex gap-6 gap-xl-2 ml-4">
               <Image src="/icons/search.svg" height={20} width={20} alt="lupa" />
               <Image src="/icons/user.svg" height={10} width={15} alt="usuario" />
               <Image src="/icons/cart.svg" height={20} width={20} alt="carrinho" />
