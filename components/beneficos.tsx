@@ -14,7 +14,7 @@ const Beneficios = () => {
 
   return (
     <>
-      <div className="bg-black py-8 w-full flex gap-4 items-center justify-center">
+      <div className="bg-black py-10 w-full flex gap-4 items-center justify-center">
         <p className="text-white text-center">
           <span className="text-[#bb29bb]">{palavras.faixaVouncherDesconto.ganhe}</span> {palavras.faixaVouncherDesconto.resto}
         </p>

@@ -8,8 +8,7 @@ const arrayVideos = [{ img: "/carroussel/video/video.mp4" }, { img: "/carroussel
 
 const CarouselComponent = () => {
   return (
-    // carroussel colocando um tempo de tres segundos para mudar de imagem
-    <Carousel autoPlay interval={5000} infiniteLoop className="h-[1080px]">
+    <Carousel autoPlay interval={5000} infiniteLoop className=" h-[800px] h-xl-[1080px]">
       <video autoPlay loop muted className="w-full">
         <source src={"/carroussel/video/video1.mp4"} type="video/mp4" />
       </video>
