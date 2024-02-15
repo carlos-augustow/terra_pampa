@@ -1,4 +1,5 @@
 import Produtos from "@/components/produtos";
+import Footer from "@/components/ui/footer";
 import Nav from "@/components/ui/nav";
 
 export default function ProdutosPage() {
@@ -10,6 +11,7 @@ export default function ProdutosPage() {
         <Produtos exibeTitulo={false} />
         <Produtos exibeTitulo={false} />
       </div>
+      <Footer />
     </div>
   );
 }

@@ -8,7 +8,7 @@ const arrayVideos = [{ img: "/carroussel/video/video.mp4" }, { img: "/carroussel
 
 const CarouselComponent = () => {
   return (
-    <div className="h-[800px] max-h-[800px] 2xl:h-[1080px] 2xl:max-h-[1080px] overflow-hidden">
+    <div className="h-[600px] max-h-[600px] 2xl:h-[900px] 2xl:max-h-[900px] overflow-hidden">
       <Carousel autoPlay interval={5000} infiniteLoop>
         <video autoPlay loop muted className="w-full">
           <source src={"/carroussel/video/video1.mp4"} type="video/mp4" />

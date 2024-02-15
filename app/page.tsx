@@ -7,6 +7,7 @@ import Beneficios from "@/components/beneficos";
 import Mosaico from "@/components/mosaico";
 import Produtos from "@/components/produtos";
 import Div_Video from "@/components/div_video";
+import Footer from "@/components/ui/footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Beneficios />
         <Mosaico />
         <Produtos exibeTitulo={true} />
+        <Footer />
       </main>
     </div>
   );
