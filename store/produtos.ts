@@ -30,6 +30,12 @@ export const retornaProdutos = (): produtos => {
         precoAtual: 280,
         imagem: "/imgs/produto/p3.png",
       },
+      {
+        nome: "Produto 4",
+        precoAntigo: 340,
+        precoAtual: 290,
+        imagem: "/imgs/produto/p3.png",
+      },
     ],
   };
 };
